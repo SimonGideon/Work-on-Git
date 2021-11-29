@@ -1,4 +1,3 @@
-
 def login():
 	print("-----Log in! -----")
 	_username = input("Username: ")
@@ -6,11 +5,12 @@ def login():
 	_password = input("Password: ")
 	if _username == username and _password == password:
 		print("--Log In Successfuly-- Welcome:", username)
-
+	else:
+		
 print("Helo Welcome to the log in System!!")
 n = input("Do you have an account ?(Y/N): ")
-if n.title()=="N":
-	print("Sign Up with The following details --->")
+if n.title()=="N"
+:	print("Sign Up with The following details --->")
 	firstname = input("First Name: ")
 	lastname = input("Last Name: ")
 	username = input("Username: ")
