@@ -10,11 +10,42 @@
 # 30-34 - D
 # 25-29 - D-
 # Rest E
-def grading(name, Maths):
-	if Maths>=80:
-		print(Maths, "A")
-	else:
-		print("0000")
-Maths = input("Enter:")
-name = input("Input Name:")
-# grading("Simon", 90)
+class grading:
+        def __init__(self, name, Maths, English, Chem, grade): 
+            self.name = name
+            self.Maths = Maths
+            self.English = English
+            self.Chem = Chem
+            self.grade = grade
+
+name = input("Enter name: ")
+Maths = int(input("Enter Maths: "))
+English = int(input("Enter English: "))
+Chem = int(input("Enter Chem: "))
+grade=[]
+if Maths >=80:
+	grade="A"
+elif Maths>=75:
+	grade="A-"
+elif Maths>=70:
+	grade="B+"
+elif Maths>=65:
+	grade="B"
+elif Maths>=55:
+	grade="B-"
+elif Maths>=45:
+	grade="C+"
+elif Maths>=35:
+	grade="C-"
+elif Maths>=25:
+	grade="C"
+elif Maths>=15:
+	grade="D"
+elif Maths>=10:
+	grade="D-"
+else:
+	grade="E"
+sum = Maths + English + Chem
+print(name, "----> Results")
+print( "Mathematics: ",  grade)
+
