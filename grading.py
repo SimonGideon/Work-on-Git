@@ -22,30 +22,31 @@ name = input("Enter name: ")
 Maths = int(input("Enter Maths: "))
 English = int(input("Enter English: "))
 Chem = int(input("Enter Chem: "))
+sum = Maths + English + Chem
+Mean = sum//3
 grade=[]
-if Maths >=80:
+if  Mean >=80:
 	grade="A"
-elif Maths>=75:
+elif  Mean>=75:
 	grade="A-"
-elif Maths>=70:
+elif  Mean>=70:
 	grade="B+"
-elif Maths>=65:
+elif  Mean>=65:
 	grade="B"
-elif Maths>=55:
+elif  Mean>=55:
 	grade="B-"
-elif Maths>=45:
+elif  Mean>=45:
 	grade="C+"
-elif Maths>=35:
+elif  Mean>=35:
 	grade="C-"
-elif Maths>=25:
+elif  Mean>=25:
 	grade="C"
-elif Maths>=15:
+elif  Mean>=15:
 	grade="D"
-elif Maths>=10:
+elif  Mean>=10:
 	grade="D-"
 else:
 	grade="E"
-sum = Maths + English + Chem
 print(name, "----> Results")
-print( "Mathematics: ",  grade)
+print( "Mean Grade: ",  grade)
 
