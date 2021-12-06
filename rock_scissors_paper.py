@@ -25,7 +25,7 @@ while True:
 	    else:
 	        print("Rock smashes scissors! You lose.")
 	elif my_choice=="Exit":
-		print(win)
+		print("You Won", win, "Times")
 		break
 	else:
 		print("Invalid Input")
