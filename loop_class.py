@@ -4,15 +4,15 @@
 
 # greetings_funct("John", 12) # john is a passed parameter
 
-# def salary_funct(name, basicSalary,sales):
-# 	if sales >= 1000000:
-# 		commision = 0.02 * sales
-# 		print("your total salary is", commision +  basicSalary)
-# 	else:
-# 		print("your total salary is", basicSalary)
+def salary_funct(name, basicSalary,sales):
+	if sales >= 1000000:
+		commision = 0.02 * sales
+		print("your total salary is", commision +  basicSalary)
+	else:
+		print("your total salary is", basicSalary)
 
-# salary_funct("jeff",50000, 1888000)
-# salary_funct("Simo",474730,35637272)
+salary_funct("jeff",50000, 1888000)
+salary_funct("Simo",474730,35637272)
 
 """for loops"""
 # for i in range(0,10,2):
