@@ -37,5 +37,8 @@ names.extend(names2[2][2])
 names.insert(1, names2[2][3])
 print(names)
 print(names2[2][2].index("Peter"))
-
+n = "John Doe"
+n1 = list(n)
+# print(list(n))
+print(type(n1))
 
