@@ -26,4 +26,5 @@ while True:
         print(f"Total Price: {totalPrice}")
         break
     else:
+        
         print("Invalid Product........")
