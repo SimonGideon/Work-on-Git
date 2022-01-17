@@ -1,0 +1,11 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 20px 36px;
+    box-shadow: 0px 2.9828256px 77.4564px rgba(0, 0,0.1);
+
+}
+.logo{
+
+}
